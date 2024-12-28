@@ -54,7 +54,6 @@ export const StateContextProvider = ({ children }) => {
                 place,
                 isError,
                 error,
-                setPlace,
             }}
         >
             {children}

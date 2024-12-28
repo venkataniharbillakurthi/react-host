@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.62.8",
