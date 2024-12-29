@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import "./App.css";
+import "./index.css";
 import { BackgroundLayout, MiniCard, WeatherCard } from "./Components";
 import Nav from "./Components/Nav";
 import { useStateContext } from "./Context";
